@@ -1,0 +1,1278 @@
+11:46:17,003 DEBUG SQL:109 - select message0_.ID as ID1_0_0_, message0_.TEXT as TEXT2_0_0_ from message message0_ where message0_.ID=?
+11:46:17,016 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+11:46:46,469 DEBUG SQL:109 - select message0_.ID as ID1_0_0_, message0_.TEXT as TEXT2_0_0_ from message message0_ where message0_.ID=?
+11:46:46,482 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+11:46:46,491 DEBUG SQL:109 - select message0_.ID as ID1_0_0_, message0_.TEXT as TEXT2_0_0_ from message message0_ where message0_.ID=?
+11:46:46,491 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+11:56:06,022 DEBUG SQL:109 - select message0_.ID as ID1_1_0_, message0_.TEXT as TEXT2_1_0_ from message message0_ where message0_.ID=?
+11:56:06,035 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+11:56:06,045 DEBUG SQL:109 - select message0_.ID as ID1_1_0_, message0_.TEXT as TEXT2_1_0_ from message message0_ where message0_.ID=?
+11:56:06,045 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+11:56:54,636 DEBUG SQL:109 - insert into message (TEXT) values (?)
+11:56:54,649 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Primero]
+11:56:54,662 DEBUG SQL:109 - insert into message (TEXT) values (?)
+11:56:54,662 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Segundo]
+11:56:54,675 DEBUG SQL:109 - delete from message where ID=?
+11:56:54,676 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+11:57:06,290 DEBUG SQL:109 - insert into Person (city, street, zipcode, name) values (?, ?, ?, ?)
+11:57:06,309 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Seattle]
+11:57:06,310 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Main St]
+11:57:06,310 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [85123]
+11:57:06,310 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Ruby]
+11:59:35,253 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+11:59:35,266 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [David Crow]
+11:59:35,267 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [3000]
+11:59:35,267 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+11:59:35,281 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+11:59:35,281 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014RG50347]
+11:59:35,282 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+11:59:35,283 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Rahul Singh]
+12:01:00,473 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+12:01:00,486 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [David Crow]
+12:01:00,487 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [3000]
+12:01:00,487 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+12:01:00,498 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+12:01:00,499 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014RG50347]
+12:01:00,500 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [2]
+12:01:00,500 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Rahul Singh]
+12:01:00,591 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_2_,
+        student0_.enrollment_id as enrollme2_2_,
+        student0_.guide_id as guide_id4_2_,
+        student0_.name as name3_2_ 
+    from
+        Student student0_
+12:01:00,604 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:01:00,605 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+12:01:00,623 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_2_,
+        student0_.enrollment_id as enrollme2_2_,
+        student0_.guide_id as guide_id4_2_,
+        student0_.name as name3_2_ 
+    from
+        Student student0_
+13:03:08,982 DEBUG SQL:109 - insert into Person (city, street, zipcode, name) values (?, ?, ?, ?)
+13:03:08,995 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Seattle]
+13:03:08,996 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Main St]
+13:03:08,996 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [85123]
+13:03:08,996 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Ruby]
+13:08:37,523 DEBUG SQL:109 - insert into Person (city, street, zipcode, name) values (?, ?, ?, ?)
+13:08:37,535 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Seattle]
+13:08:37,536 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Main St]
+13:08:37,536 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [85123]
+13:08:37,536 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Ruby]
+13:09:27,653 DEBUG SQL:109 - insert into Person (city, street, zipcode, name) values (?, ?, ?, ?)
+13:09:27,667 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Seattle]
+13:09:27,667 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Main St]
+13:09:27,667 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [85123]
+13:09:27,668 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Ruby]
+13:10:09,329 DEBUG SQL:109 - insert into Person (city, street, zipcode, name) values (?, ?, ?, ?)
+13:10:09,343 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Seattle]
+13:10:09,344 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Main St]
+13:10:09,344 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [85123]
+13:10:09,344 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Ruby]
+13:10:09,371 DEBUG SQL:109 - SELECT person FROM Person person
+13:10:21,820 DEBUG SQL:109 - insert into Person (city, street, zipcode, name) values (?, ?, ?, ?)
+13:10:21,832 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Seattle]
+13:10:21,833 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Main St]
+13:10:21,833 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [85123]
+13:10:21,833 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Ruby]
+13:10:21,930 DEBUG SQL:109 - select person0_.id as id1_0_, person0_.city as city2_0_, person0_.street as street3_0_, person0_.zipcode as zipcode4_0_, person0_.name as name5_0_ from Person person0_
+13:11:18,478 DEBUG SQL:109 - insert into Person (city, street, zipcode, name) values (?, ?, ?, ?)
+13:11:18,492 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Seattle]
+13:11:18,492 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Main St]
+13:11:18,492 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [85123]
+13:11:18,492 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Ruby]
+13:11:18,581 DEBUG SQL:109 - select person0_.id as id1_0_, person0_.city as city2_0_, person0_.street as street3_0_, person0_.zipcode as zipcode4_0_, person0_.name as name5_0_ from Person person0_ where person0_.id=1
+13:11:45,532 DEBUG SQL:109 - insert into Person (city, street, zipcode, name) values (?, ?, ?, ?)
+13:11:45,545 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Seattle]
+13:11:45,545 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Main St]
+13:11:45,545 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [85123]
+13:11:45,546 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Rub]
+13:11:45,644 DEBUG SQL:109 - select person0_.id as id1_0_, person0_.city as city2_0_, person0_.street as street3_0_, person0_.zipcode as zipcode4_0_, person0_.name as name5_0_ from Person person0_ where person0_.name='Rub'
+13:13:52,821 DEBUG SQL:109 - insert into Person (city, street, zipcode, name) values (?, ?, ?, ?)
+13:13:52,836 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [New York]
+13:13:52,837 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Main St]
+13:13:52,837 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [85123]
+13:13:52,837 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Rub]
+13:13:52,928 DEBUG SQL:109 - select person0_.id as id1_0_, person0_.city as city2_0_, person0_.street as street3_0_, person0_.zipcode as zipcode4_0_, person0_.name as name5_0_ from Person person0_ where person0_.city='New York'
+13:24:59,906 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+13:24:59,924 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Lalo]
+13:24:59,925 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [3000]
+13:24:59,926 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+13:24:59,936 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:24:59,937 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014RG50347]
+13:24:59,938 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [3]
+13:24:59,938 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [JC]
+13:24:59,942 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:24:59,943 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014RG50348]
+13:24:59,943 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [3]
+13:24:59,943 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Gio]
+13:25:00,043 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_2_,
+        student0_.enrollment_id as enrollme2_2_,
+        student0_.guide_id as guide_id4_2_,
+        student0_.name as name3_2_ 
+    from
+        Student student0_
+13:25:00,057 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:25:00,058 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+13:25:00,065 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:25:00,066 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+13:25:00,076 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_2_,
+        student0_.enrollment_id as enrollme2_2_,
+        student0_.guide_id as guide_id4_2_,
+        student0_.name as name3_2_ 
+    from
+        Student student0_
+13:28:06,600 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+13:28:06,614 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Lalo]
+13:28:06,615 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [3000]
+13:28:06,615 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+13:28:06,625 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:28:06,626 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014RG50347]
+13:28:06,626 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [4]
+13:28:06,627 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [JC]
+13:28:06,631 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:28:06,632 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014RG50348]
+13:28:06,632 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [4]
+13:28:06,632 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Gio]
+13:28:06,715 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_2_,
+        student0_.enrollment_id as enrollme2_2_,
+        student0_.guide_id as guide_id4_2_,
+        student0_.name as name3_2_ 
+    from
+        Student student0_
+13:28:06,724 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:28:06,724 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+13:28:06,733 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:28:06,735 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+13:28:06,737 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:28:06,737 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+13:28:06,747 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_2_,
+        student0_.enrollment_id as enrollme2_2_,
+        student0_.guide_id as guide_id4_2_,
+        student0_.name as name3_2_ 
+    from
+        Student student0_
+13:28:06,754 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_2_,
+        student0_.enrollment_id as enrollme2_2_,
+        student0_.guide_id as guide_id4_2_,
+        student0_.name as name3_2_ 
+    from
+        Student student0_
+13:28:34,378 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+13:28:34,393 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Lalo]
+13:28:34,394 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [3000]
+13:28:34,394 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+13:28:34,404 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:28:34,405 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014RG50347]
+13:28:34,406 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [5]
+13:28:34,406 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [JC]
+13:28:34,410 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:28:34,410 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014RG50348]
+13:28:34,410 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [5]
+13:28:34,410 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Gio]
+13:28:34,497 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_2_,
+        student0_.enrollment_id as enrollme2_2_,
+        student0_.guide_id as guide_id4_2_,
+        student0_.name as name3_2_ 
+    from
+        Student student0_
+13:28:34,507 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:28:34,508 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+13:28:34,516 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:28:34,518 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+13:28:34,520 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:28:34,521 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+13:28:34,533 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_2_0_,
+        guide1_.id as id1_0_1_,
+        student0_.enrollment_id as enrollme2_2_0_,
+        student0_.guide_id as guide_id4_2_0_,
+        student0_.name as name3_2_0_,
+        guide1_.name as name2_0_1_,
+        guide1_.salary as salary3_0_1_,
+        guide1_.staff_id as staff_id4_0_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+13:28:34,539 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_,
+        guide0_.name as name2_0_,
+        guide0_.salary as salary3_0_,
+        guide0_.staff_id as staff_id4_0_ 
+    from
+        Guide guide0_
+13:28:34,545 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_0_0_,
+        students0_.id as id1_2_0_,
+        students0_.id as id1_2_1_,
+        students0_.enrollment_id as enrollme2_2_1_,
+        students0_.guide_id as guide_id4_2_1_,
+        students0_.name as name3_2_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+13:28:34,566 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+13:28:34,590 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_0_0_,
+        students0_.id as id1_2_0_,
+        students0_.id as id1_2_1_,
+        students0_.enrollment_id as enrollme2_2_1_,
+        students0_.guide_id as guide_id4_2_1_,
+        students0_.name as name3_2_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+13:28:34,595 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+13:28:34,618 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_0_0_,
+        students0_.id as id1_2_0_,
+        students0_.id as id1_2_1_,
+        students0_.enrollment_id as enrollme2_2_1_,
+        students0_.guide_id as guide_id4_2_1_,
+        students0_.name as name3_2_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+13:28:34,619 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+13:29:31,403 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+13:29:31,421 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Lalo]
+13:29:31,422 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [3000]
+13:29:31,422 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+13:29:31,437 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:29:31,437 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014RG50347]
+13:29:31,438 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [6]
+13:29:31,438 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [JC]
+13:29:31,445 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:29:31,445 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014RG50348]
+13:29:31,446 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [6]
+13:29:31,446 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Gio]
+13:29:31,543 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_2_,
+        student0_.enrollment_id as enrollme2_2_,
+        student0_.guide_id as guide_id4_2_,
+        student0_.name as name3_2_ 
+    from
+        Student student0_
+13:29:31,555 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:29:31,556 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+13:29:31,563 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:29:31,564 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+13:29:31,567 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:29:31,567 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+13:29:31,569 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:29:31,570 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [5]
+13:29:31,589 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_2_0_,
+        guide1_.id as id1_0_1_,
+        student0_.enrollment_id as enrollme2_2_0_,
+        student0_.guide_id as guide_id4_2_0_,
+        student0_.name as name3_2_0_,
+        guide1_.name as name2_0_1_,
+        guide1_.salary as salary3_0_1_,
+        guide1_.staff_id as staff_id4_0_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=1
+13:29:31,599 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_,
+        guide0_.name as name2_0_,
+        guide0_.salary as salary3_0_,
+        guide0_.staff_id as staff_id4_0_ 
+    from
+        Guide guide0_
+13:29:31,602 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_0_0_,
+        students0_.id as id1_2_0_,
+        students0_.id as id1_2_1_,
+        students0_.enrollment_id as enrollme2_2_1_,
+        students0_.guide_id as guide_id4_2_1_,
+        students0_.name as name3_2_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+13:29:31,603 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+13:29:31,609 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_0_0_,
+        students0_.id as id1_2_0_,
+        students0_.id as id1_2_1_,
+        students0_.enrollment_id as enrollme2_2_1_,
+        students0_.guide_id as guide_id4_2_1_,
+        students0_.name as name3_2_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+13:29:31,610 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+13:29:31,612 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_0_0_,
+        students0_.id as id1_2_0_,
+        students0_.id as id1_2_1_,
+        students0_.enrollment_id as enrollme2_2_1_,
+        students0_.guide_id as guide_id4_2_1_,
+        students0_.name as name3_2_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+13:29:31,613 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+13:29:31,615 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_0_0_,
+        students0_.id as id1_2_0_,
+        students0_.id as id1_2_1_,
+        students0_.enrollment_id as enrollme2_2_1_,
+        students0_.guide_id as guide_id4_2_1_,
+        students0_.name as name3_2_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+13:29:31,616 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [5]
+15:01:53,842 DEBUG SQL:109 - 
+    insert 
+    into
+        Country
+        (country_name, country_id) 
+    values
+        (?, ?)
+15:01:53,853 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Mexico]
+15:01:53,854 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [1]
+15:01:53,863 DEBUG SQL:109 - 
+    insert 
+    into
+        State
+        (state_name, country_id, state_id) 
+    values
+        (?, ?, ?)
+15:01:53,863 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [GDL]
+15:01:53,863 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [1]
+15:01:53,864 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [2]
+15:01:53,865 DEBUG SQL:109 - 
+    insert 
+    into
+        State
+        (state_name, country_id, state_id) 
+    values
+        (?, ?, ?)
+15:01:53,866 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [CDMX]
+15:01:53,866 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [1]
+15:01:53,866 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [1]
+15:01:53,871 DEBUG SQL:109 - 
+    select
+        state0_.country_id as country_1_3_0_,
+        state0_.state_id as state_id2_3_0_,
+        country1_.country_id as country_1_0_1_,
+        state0_.state_name as state_na3_3_0_,
+        country1_.country_name as country_2_0_1_ 
+    from
+        State state0_ 
+    left outer join
+        Country country1_ 
+            on state0_.country_id=country1_.country_id 
+    where
+        state0_.country_id=1
+15:01:53,878 DEBUG SQL:109 - 
+    select
+        country0_.country_id as country_1_0_,
+        country0_.country_name as country_2_0_ 
+    from
+        Country country0_
+15:04:17,488 DEBUG SQL:109 - 
+    insert 
+    into
+        Country
+        (country_name, country_id) 
+    values
+        (?, ?)
+15:04:17,501 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Estados Unidos]
+15:04:17,502 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [2]
+15:04:17,509 DEBUG SQL:109 - 
+    insert 
+    into
+        State
+        (state_name, country_id, state_id) 
+    values
+        (?, ?, ?)
+15:04:17,510 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [NJ]
+15:04:17,510 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [2]
+15:04:17,510 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [3]
+15:04:17,513 DEBUG SQL:109 - 
+    insert 
+    into
+        State
+        (state_name, country_id, state_id) 
+    values
+        (?, ?, ?)
+15:04:17,513 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [NY]
+15:04:17,514 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [2]
+15:04:17,514 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [1]
+15:04:17,515 DEBUG SQL:109 - 
+    insert 
+    into
+        State
+        (state_name, country_id, state_id) 
+    values
+        (?, ?, ?)
+15:04:17,516 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [TX]
+15:04:17,524 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [2]
+15:04:17,524 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [2]
+15:04:17,531 DEBUG SQL:109 - 
+    select
+        state0_.country_id as country_1_3_0_,
+        state0_.state_id as state_id2_3_0_,
+        country1_.country_id as country_1_0_1_,
+        state0_.state_name as state_na3_3_0_,
+        country1_.country_name as country_2_0_1_ 
+    from
+        State state0_ 
+    left outer join
+        Country country1_ 
+            on state0_.country_id=country1_.country_id 
+    where
+        state0_.country_id=2
+15:04:17,539 DEBUG SQL:109 - 
+    select
+        country0_.country_id as country_1_0_,
+        country0_.country_name as country_2_0_ 
+    from
+        Country country0_
+15:04:17,545 DEBUG SQL:109 - 
+    select
+        states0_.country_id as country_1_0_0_,
+        states0_.country_id as country_1_3_0_,
+        states0_.state_id as state_id2_3_0_,
+        states0_.country_id as country_1_3_1_,
+        states0_.state_id as state_id2_3_1_,
+        states0_.state_name as state_na3_3_1_ 
+    from
+        State states0_ 
+    where
+        states0_.country_id=?
+15:04:17,546 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [1]
+15:22:20,312 DEBUG SQL:109 - 
+    insert 
+    into
+        Metatable
+        (metatable_name, metatable_id) 
+    values
+        (?, ?)
+15:22:20,329 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Genero]
+15:22:20,329 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [G_MX]
+15:22:20,338 DEBUG SQL:109 - 
+    insert 
+    into
+        MetatableValue
+        (metatable_name, metatable_id, metatable_value_id) 
+    values
+        (?, ?, ?)
+15:22:20,339 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Masculino]
+15:22:20,339 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [G_MX]
+15:22:20,340 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [M]
+15:22:20,343 DEBUG SQL:109 - 
+    insert 
+    into
+        MetatableValue
+        (metatable_name, metatable_id, metatable_value_id) 
+    values
+        (?, ?, ?)
+15:22:20,343 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Femenino]
+15:22:20,344 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [G_MX]
+15:22:20,344 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [F]
+15:22:20,349 DEBUG SQL:109 - 
+    select
+        metatablev0_.metatable_id as metatabl1_3_0_,
+        metatablev0_.metatable_value_id as metatabl2_3_0_,
+        metatable1_.metatable_id as metatabl1_2_1_,
+        metatablev0_.metatable_name as metatabl3_3_0_,
+        metatable1_.metatable_name as metatabl2_2_1_ 
+    from
+        MetatableValue metatablev0_ 
+    left outer join
+        Metatable metatable1_ 
+            on metatablev0_.metatable_id=metatable1_.metatable_id 
+    where
+        metatablev0_.metatable_id='G_MX'
+15:22:20,358 DEBUG SQL:109 - 
+    select
+        metatable0_.metatable_id as metatabl1_2_,
+        metatable0_.metatable_name as metatabl2_2_ 
+    from
+        Metatable metatable0_
+16:46:07,466 DEBUG SQL:109 - 
+    insert 
+    into
+        Metatable
+        (metatable_name, metatable_id) 
+    values
+        (?, ?)
+16:46:07,486 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Estatus]
+16:46:07,487 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [S_MX]
+16:46:07,496 DEBUG SQL:109 - 
+    insert 
+    into
+        MetatableValue
+        (metatable_name, metatable_id, metatable_value_id) 
+    values
+        (?, ?, ?)
+16:46:07,496 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Activo]
+16:46:07,497 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [S_MX]
+16:46:07,497 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [1]
+16:46:07,502 DEBUG SQL:109 - 
+    insert 
+    into
+        MetatableValue
+        (metatable_name, metatable_id, metatable_value_id) 
+    values
+        (?, ?, ?)
+16:46:07,502 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Inactivo]
+16:46:07,503 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [S_MX]
+16:46:07,503 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [0]
+16:46:07,509 DEBUG SQL:109 - 
+    select
+        metatablev0_.metatable_id as metatabl1_3_0_,
+        metatablev0_.metatable_value_id as metatabl2_3_0_,
+        metatable1_.metatable_id as metatabl1_2_1_,
+        metatablev0_.metatable_name as metatabl3_3_0_,
+        metatable1_.metatable_name as metatabl2_2_1_ 
+    from
+        MetatableValue metatablev0_ 
+    left outer join
+        Metatable metatable1_ 
+            on metatablev0_.metatable_id=metatable1_.metatable_id 
+    where
+        metatablev0_.metatable_id='G_MX'
+16:46:07,520 DEBUG SQL:109 - 
+    select
+        metatable0_.metatable_id as metatabl1_2_,
+        metatable0_.metatable_name as metatabl2_2_ 
+    from
+        Metatable metatable0_
+16:46:07,525 DEBUG SQL:109 - 
+    select
+        metatablev0_.metatable_id as metatabl1_2_0_,
+        metatablev0_.metatable_id as metatabl1_3_0_,
+        metatablev0_.metatable_value_id as metatabl2_3_0_,
+        metatablev0_.metatable_id as metatabl1_3_1_,
+        metatablev0_.metatable_value_id as metatabl2_3_1_,
+        metatablev0_.metatable_name as metatabl3_3_1_ 
+    from
+        MetatableValue metatablev0_ 
+    where
+        metatablev0_.metatable_id=?
+16:46:07,526 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [G_MX]
+11:15:26,577 DEBUG SQL:109 - insert into message (TEXT) values (?)
+11:15:26,591 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Primero]
+11:15:26,603 DEBUG SQL:109 - insert into message (TEXT) values (?)
+11:15:26,604 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Segundo]
+11:15:26,617 DEBUG SQL:109 - delete from message where ID=?
+11:15:26,618 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+11:24:01,185 DEBUG SQL:109 - insert into Person (city, street, zipcode, name) values (?, ?, ?, ?)
+11:24:01,198 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [New York]
+11:24:01,198 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Main St]
+11:24:01,198 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [85123]
+11:24:01,198 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Rub]
+11:24:01,332 DEBUG SQL:109 - select person0_.id as id1_0_, person0_.city as city2_0_, person0_.street as street3_0_, person0_.zipcode as zipcode4_0_, person0_.name as name5_0_ from Person person0_ where person0_.city='New York'
+11:38:21,359 DEBUG SQL:109 - insert into Person (city, street, zipcode, name) values (?, ?, ?, ?)
+11:38:21,372 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [New York]
+11:38:21,373 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [200 E Main St]
+11:38:21,373 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [85123]
+11:38:21,373 TRACE BasicBinder:81 - binding parameter [4] as [VARCHAR] - [Rub]
+11:38:21,471 DEBUG SQL:109 - select person0_.id as id1_0_, person0_.city as city2_0_, person0_.street as street3_0_, person0_.zipcode as zipcode4_0_, person0_.name as name5_0_ from Person person0_ where person0_.city='New York'
+11:54:02,676 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+11:54:02,689 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Lalo]
+11:54:02,690 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [3000]
+11:54:02,690 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+11:54:02,700 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+11:54:02,701 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014RG50348]
+11:54:02,701 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [7]
+11:54:02,702 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Gio]
+11:54:02,710 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+11:54:02,710 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014RG50347]
+11:54:02,710 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [7]
+11:54:02,711 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [JC]
+11:54:02,801 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+11:54:02,802 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014RG50349]
+11:54:02,803 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [7]
+11:54:02,804 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Gabo]
+11:54:02,820 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_,
+        student0_.enrollment_id as enrollme2_6_,
+        student0_.guide_id as guide_id4_6_,
+        student0_.name as name3_6_ 
+    from
+        Student student0_
+11:54:02,828 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+11:54:02,829 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+11:54:02,835 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+11:54:02,836 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+11:54:02,838 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+11:54:02,839 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+11:54:02,841 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+11:54:02,842 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [5]
+11:54:02,844 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+11:54:02,844 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [6]
+11:54:02,864 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        guide1_.id as id1_1_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+11:54:02,870 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_,
+        guide0_.name as name2_1_,
+        guide0_.salary as salary3_1_,
+        guide0_.staff_id as staff_id4_1_ 
+    from
+        Guide guide0_
+11:54:02,876 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_6_0_,
+        students0_.id as id1_6_1_,
+        students0_.enrollment_id as enrollme2_6_1_,
+        students0_.guide_id as guide_id4_6_1_,
+        students0_.name as name3_6_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+11:54:02,876 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+11:54:02,882 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_6_0_,
+        students0_.id as id1_6_1_,
+        students0_.enrollment_id as enrollme2_6_1_,
+        students0_.guide_id as guide_id4_6_1_,
+        students0_.name as name3_6_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+11:54:02,882 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+11:54:02,884 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_6_0_,
+        students0_.id as id1_6_1_,
+        students0_.enrollment_id as enrollme2_6_1_,
+        students0_.guide_id as guide_id4_6_1_,
+        students0_.name as name3_6_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+11:54:02,884 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+11:54:02,886 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_6_0_,
+        students0_.id as id1_6_1_,
+        students0_.enrollment_id as enrollme2_6_1_,
+        students0_.guide_id as guide_id4_6_1_,
+        students0_.name as name3_6_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+11:54:02,887 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [5]
+11:54:02,889 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_6_0_,
+        students0_.id as id1_6_1_,
+        students0_.enrollment_id as enrollme2_6_1_,
+        students0_.guide_id as guide_id4_6_1_,
+        students0_.name as name3_6_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+11:54:02,889 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [6]
+12:23:24,603 DEBUG SQL:109 - 
+    insert 
+    into
+        Metatable
+        (metatable_name, metatable_id) 
+    values
+        (?, ?)
+12:23:24,621 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Estatus]
+12:23:24,622 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [S_MX]
+12:23:54,245 DEBUG SQL:109 - 
+    insert 
+    into
+        Metatable
+        (metatable_name, metatable_id) 
+    values
+        (?, ?)
+12:23:54,258 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Estatus]
+12:23:54,259 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [S_ES_MX]
+12:23:54,266 DEBUG SQL:109 - 
+    insert 
+    into
+        MetatableValue
+        (metatable_name, metatable_id, metatable_value_id) 
+    values
+        (?, ?, ?)
+12:23:54,267 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Activo]
+12:23:54,267 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [S_ES_MX]
+12:23:54,267 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [1]
+12:23:54,270 DEBUG SQL:109 - 
+    insert 
+    into
+        MetatableValue
+        (metatable_name, metatable_id, metatable_value_id) 
+    values
+        (?, ?, ?)
+12:23:54,271 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Inactivo]
+12:23:54,271 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [S_ES_MX]
+12:23:54,272 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [0]
+12:23:54,277 DEBUG SQL:109 - 
+    select
+        metatablev0_.metatable_id as metatabl1_3_0_,
+        metatablev0_.metatable_value_id as metatabl2_3_0_,
+        metatable1_.metatable_id as metatabl1_2_1_,
+        metatablev0_.metatable_name as metatabl3_3_0_,
+        metatable1_.metatable_name as metatabl2_2_1_ 
+    from
+        MetatableValue metatablev0_ 
+    left outer join
+        Metatable metatable1_ 
+            on metatablev0_.metatable_id=metatable1_.metatable_id 
+    where
+        metatablev0_.metatable_id='S_MX'
+12:23:54,288 DEBUG SQL:109 - 
+    select
+        metatable0_.metatable_id as metatabl1_2_,
+        metatable0_.metatable_name as metatabl2_2_ 
+    from
+        Metatable metatable0_
+12:23:54,291 DEBUG SQL:109 - 
+    select
+        metatablev0_.metatable_id as metatabl1_2_0_,
+        metatablev0_.metatable_id as metatabl1_3_0_,
+        metatablev0_.metatable_value_id as metatabl2_3_0_,
+        metatablev0_.metatable_id as metatabl1_3_1_,
+        metatablev0_.metatable_value_id as metatabl2_3_1_,
+        metatablev0_.metatable_name as metatabl3_3_1_ 
+    from
+        MetatableValue metatablev0_ 
+    where
+        metatablev0_.metatable_id=?
+12:23:54,292 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [G_MX]
+12:23:54,300 DEBUG SQL:109 - 
+    select
+        metatablev0_.metatable_id as metatabl1_2_0_,
+        metatablev0_.metatable_id as metatabl1_3_0_,
+        metatablev0_.metatable_value_id as metatabl2_3_0_,
+        metatablev0_.metatable_id as metatabl1_3_1_,
+        metatablev0_.metatable_value_id as metatabl2_3_1_,
+        metatablev0_.metatable_name as metatabl3_3_1_ 
+    from
+        MetatableValue metatablev0_ 
+    where
+        metatablev0_.metatable_id=?
+12:23:54,301 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [S_MX]
+12:26:09,521 DEBUG SQL:109 - 
+    insert 
+    into
+        Metatable
+        (metatable_name, metatable_id) 
+    values
+        (?, ?)
+12:26:09,549 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Estatus]
+12:26:09,550 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [S_ES_MX_2]
+12:26:09,562 DEBUG SQL:109 - 
+    insert 
+    into
+        MetatableValue
+        (metatable_name, metatable_id, metatable_value_id) 
+    values
+        (?, ?, ?)
+12:26:09,563 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Activo]
+12:26:09,563 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [S_ES_MX_2]
+12:26:09,563 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [1]
+12:26:09,568 DEBUG SQL:109 - 
+    insert 
+    into
+        MetatableValue
+        (metatable_name, metatable_id, metatable_value_id) 
+    values
+        (?, ?, ?)
+12:26:09,569 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Inactivo]
+12:26:09,570 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [S_ES_MX_2]
+12:26:09,570 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [0]
+12:26:09,578 DEBUG SQL:109 - 
+    select
+        metatablev0_.metatable_id as metatabl1_3_0_,
+        metatablev0_.metatable_value_id as metatabl2_3_0_,
+        metatable1_.metatable_id as metatabl1_2_1_,
+        metatablev0_.metatable_name as metatabl3_3_0_,
+        metatable1_.metatable_name as metatabl2_2_1_ 
+    from
+        MetatableValue metatablev0_ 
+    left outer join
+        Metatable metatable1_ 
+            on metatablev0_.metatable_id=metatable1_.metatable_id 
+    where
+        metatablev0_.metatable_id='S_ES_MX_2'
+12:26:09,589 DEBUG SQL:109 - 
+    select
+        metatable0_.metatable_id as metatabl1_2_,
+        metatable0_.metatable_name as metatabl2_2_ 
+    from
+        Metatable metatable0_
+12:26:09,599 DEBUG SQL:109 - 
+    select
+        metatablev0_.metatable_id as metatabl1_2_0_,
+        metatablev0_.metatable_id as metatabl1_3_0_,
+        metatablev0_.metatable_value_id as metatabl2_3_0_,
+        metatablev0_.metatable_id as metatabl1_3_1_,
+        metatablev0_.metatable_value_id as metatabl2_3_1_,
+        metatablev0_.metatable_name as metatabl3_3_1_ 
+    from
+        MetatableValue metatablev0_ 
+    where
+        metatablev0_.metatable_id=?
+12:26:09,600 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [G_MX]
+12:26:09,619 DEBUG SQL:109 - 
+    select
+        metatablev0_.metatable_id as metatabl1_2_0_,
+        metatablev0_.metatable_id as metatabl1_3_0_,
+        metatablev0_.metatable_value_id as metatabl2_3_0_,
+        metatablev0_.metatable_id as metatabl1_3_1_,
+        metatablev0_.metatable_value_id as metatabl2_3_1_,
+        metatablev0_.metatable_name as metatabl3_3_1_ 
+    from
+        MetatableValue metatablev0_ 
+    where
+        metatablev0_.metatable_id=?
+12:26:09,622 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [S_ES_MX]
+12:26:09,627 DEBUG SQL:109 - 
+    select
+        metatablev0_.metatable_id as metatabl1_2_0_,
+        metatablev0_.metatable_id as metatabl1_3_0_,
+        metatablev0_.metatable_value_id as metatabl2_3_0_,
+        metatablev0_.metatable_id as metatabl1_3_1_,
+        metatablev0_.metatable_value_id as metatabl2_3_1_,
+        metatablev0_.metatable_name as metatabl3_3_1_ 
+    from
+        MetatableValue metatablev0_ 
+    where
+        metatablev0_.metatable_id=?
+12:26:09,629 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [S_MX]
+12:50:15,674 DEBUG SQL:109 - 
+    insert 
+    into
+        Country
+        (country_name, country_id) 
+    values
+        (?, ?)
+12:50:15,686 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Ratotitlan]
+12:50:15,687 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [10]
+12:50:15,694 DEBUG SQL:109 - 
+    insert 
+    into
+        State
+        (state_name, country_id, state_id) 
+    values
+        (?, ?, ?)
+12:50:15,695 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Chiapas]
+12:50:15,695 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [10]
+12:50:15,696 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [3]
+12:50:15,697 DEBUG SQL:109 - 
+    insert 
+    into
+        State
+        (state_name, country_id, state_id) 
+    values
+        (?, ?, ?)
+12:50:15,698 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Veracruz]
+12:50:15,698 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [10]
+12:50:15,698 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [2]
+12:50:15,700 DEBUG SQL:109 - 
+    insert 
+    into
+        State
+        (state_name, country_id, state_id) 
+    values
+        (?, ?, ?)
+12:50:15,700 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Edo Mex]
+12:50:15,701 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [10]
+12:50:15,701 TRACE BasicBinder:81 - binding parameter [3] as [INTEGER] - [1]
+12:50:15,712 DEBUG SQL:109 - 
+    select
+        state0_.country_id as country_1_5_0_,
+        state0_.state_id as state_id2_5_0_,
+        country1_.country_id as country_1_0_1_,
+        state0_.state_name as state_na3_5_0_,
+        country1_.country_name as country_2_0_1_ 
+    from
+        State state0_ 
+    left outer join
+        Country country1_ 
+            on state0_.country_id=country1_.country_id 
+    where
+        state0_.country_id=10
+12:50:15,720 DEBUG SQL:109 - 
+    select
+        country0_.country_id as country_1_0_,
+        country0_.country_name as country_2_0_ 
+    from
+        Country country0_
+12:50:15,726 DEBUG SQL:109 - 
+    select
+        states0_.country_id as country_1_0_0_,
+        states0_.country_id as country_1_5_0_,
+        states0_.state_id as state_id2_5_0_,
+        states0_.country_id as country_1_5_1_,
+        states0_.state_id as state_id2_5_1_,
+        states0_.state_name as state_na3_5_1_ 
+    from
+        State states0_ 
+    where
+        states0_.country_id=?
+12:50:15,727 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [1]
+12:50:15,738 DEBUG SQL:109 - 
+    select
+        states0_.country_id as country_1_0_0_,
+        states0_.country_id as country_1_5_0_,
+        states0_.state_id as state_id2_5_0_,
+        states0_.country_id as country_1_5_1_,
+        states0_.state_id as state_id2_5_1_,
+        states0_.state_name as state_na3_5_1_ 
+    from
+        State states0_ 
+    where
+        states0_.country_id=?
+12:50:15,738 TRACE BasicBinder:81 - binding parameter [1] as [INTEGER] - [2]
